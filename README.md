@@ -99,7 +99,7 @@ Sugestões e pull requests são bem-vindos! Sinta-se à vontade para abrir uma i
 
 ## ✍️ Autor
 
-**Giselle Hoekvel Silva**
+**Giselle Hoekveld Silva**
 
 ## 🙏 Agradecimentos
 

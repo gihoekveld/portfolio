@@ -1,4 +1,4 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { type QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   Link,
@@ -48,6 +48,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-2">
           <button
+            type="button"
             onClick={() => {
               router.invalidate();
               reset();
@@ -73,14 +74,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Giselle Hoekveld - Portfólio" },
+      {
+        name: "description",
+        content:
+          "Portfólio profissional de Giselle Hoekveld Silva. Desenvolvedora Full-stack especializada em React, TypeScript e TanStack.",
+      },
+      { name: "author", content: "Giselle Hoekveld Silva" },
+      { property: "og:title", content: "Giselle Hoekveld - Portfólio" },
+      {
+        property: "og:description",
+        content:
+          "Portfólio profissional de Giselle Hoekveld Silva. Desenvolvedora Full-stack especializada em React, TypeScript e TanStack.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {

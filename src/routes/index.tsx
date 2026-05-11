@@ -35,13 +35,13 @@ function Home() {
             Disponível para novos projetos
           </span>
           <h1 className="mt-6 text-balance text-5xl font-bold tracking-tight text-foreground md:text-7xl">
-            Construindo produtos em{" "}
-            <span className="text-gradient">timelines reais</span>
+            Construindo produtos em
+            <span className="text-gradient"> timelines reais</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground">
-            Sou <strong className="text-foreground">Giselle Hoekveld</strong>, desenvolvedora
-            de software full-stack. Há mais de 4 anos entregando funcionalidades de ponta a
-            ponta — do checkout ao app mobile, do worker em edge ao design system.
+            Sou <strong className="text-foreground">Giselle Hoekveld</strong>, desenvolvedora de
+            software full-stack. Há mais de 4 anos entregando funcionalidades de ponta a ponta — do
+            checkout ao app mobile, do worker em edge ao design system.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
@@ -71,9 +71,8 @@ function Home() {
               Projetos em <span className="text-gradient">destaque</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Produtos que ajudei a construir como dev full-stack, com as entregas
-              principais de cada fase. Clique em &ldquo;Ver timeline completa&rdquo; para o
-              histórico detalhado.
+              Produtos que ajudei a construir como dev full-stack, com as entregas principais de
+              cada fase. Clique em &ldquo;Ver timeline completa&rdquo; para o histórico detalhado.
             </p>
           </div>
 
@@ -104,8 +103,8 @@ function Home() {
               Projetos <span className="text-gradient">acadêmicos</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Contribuições em projetos com impacto social, desenvolvidos durante a
-              graduação em Análise e Desenvolvimento de Sistemas no IFSP.
+              Contribuições em projetos com impacto social, desenvolvidos durante a graduação em
+              Análise e Desenvolvimento de Sistemas no IFSP.
             </p>
           </div>
 
