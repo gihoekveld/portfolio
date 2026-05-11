@@ -1,0 +1,24 @@
+import { Link } from "@tanstack/react-router";
+
+export function SiteHeader() {
+  return (
+    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <Link to="/" className="font-semibold tracking-tight text-foreground">
+          <span className="text-gradient">@gihoekveld</span>
+        </Link>
+        <nav className="flex items-center gap-6 text-sm text-muted-foreground">
+          <Link to="/" className="transition-colors hover:text-foreground" activeOptions={{ exact: true }} activeProps={{ className: "text-foreground" }}>
+            Início
+          </Link>
+          <a href="/#projetos" className="transition-colors hover:text-foreground">
+            Projetos
+          </a>
+          <a href="/#contato" className="transition-colors hover:text-foreground">
+            Contato
+          </a>
+        </nav>
+      </div>
+    </header>
+  );
+}
