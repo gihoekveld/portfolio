@@ -289,7 +289,7 @@ export const projects: Project[] = [
       "TypeScript",
       "Cloudflare Pages",
       "Cloudflare Workers",
-      "PostgreSQL",
+      "Cloudflare D1",
       "Product Ownership",
     ],
     highlights: [
@@ -360,7 +360,15 @@ export const projects: Project[] = [
     description:
       "Projeto de extensão do IFSP. Desenvolvimento do site da Zambô, ONG que promove cultura, eventos, oficinas e beneficia estudantes da comunidade. Stack Cloudflare (Pages + Workers).",
     image: zamboImg,
-    stack: ["React", "TypeScript", "Cloudflare Pages", "Cloudflare Workers", "PostgreSQL"],
+    stack: [
+      "React",
+      "TypeScript",
+      "Cloudflare Pages",
+      "Cloudflare Workers",
+      "PostgreSQL",
+      "Tech Lead",
+      "Full Stack",
+    ],
     highlights: [
       "Protótipo completo validado com a Zambô",
       "Arquitetura na Cloudflare (Pages + Workers) com foco em escalabilidade",
@@ -410,16 +418,9 @@ export const projects: Project[] = [
     description:
       "Projeto de extensão do IFSP. Atuação em DevOps em projeto já em produção. Contribuições em infraestrutura: workspace com Docker Compose, sincronização de variáveis de ambiente e configuração dos repositórios base.",
     image: artesaosImg,
-    stack: [
-      "Next.js",
-      "NestJS",
-      "Docker Compose",
-      "Infisical",
-      "Cloudflare Pages",
-      "Cloudflare Workers",
-    ],
+    stack: ["Next.js", "NestJS", "Docker Compose", "PostgreSQL", "DevOps", "Infraestrutura"],
     highlights: [
-      "Workspace com Docker Compose + Infisical para variáveis",
+      "Workspace com Docker Compose + Self host para variáveis locais",
       "Infraestrutura padronizada para o time",
       "Próximas entregas: sandbox isolada, migração para domínio e pipeline de deploy",
     ],
@@ -436,7 +437,7 @@ export const projects: Project[] = [
         status: "done",
         items: [
           "Repositório de workspace com Docker Compose",
-          "Integração com Infisical para sincronizar variáveis de ambiente",
+          "Integração com self host para sincronizar variáveis de ambiente",
           "Documentação de onboarding dos devs",
         ],
       },
