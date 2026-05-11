@@ -36,7 +36,7 @@ export const projects: Project[] = [
     category: "professional",
     name: "Excofy",
     tagline: "Plataforma SaaS de checkout e gestão de vendas",
-    period: "Out 2022 — Mai 2026",
+    period: "Out 2022 — Atual",
     description:
       "Plataforma SaaS para produtores digitais com dashboard de vendas, checkout, app mobile, área do cliente, assinaturas e afiliados.",
     image: excofyImg,
