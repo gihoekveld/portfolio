@@ -291,6 +291,8 @@ export const projects: Project[] = [
       "Cloudflare Workers",
       "Cloudflare D1",
       "Product Ownership",
+      "Tech Lead",
+      "Full Stack",
     ],
     highlights: [
       "Protótipo completo validado com a paróquia",
