@@ -7,7 +7,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import faviconUrl from "../assets/favicon.png";
+import faviconUrl from "../assets/favicon.svg";
 
 import appCss from "../styles.css?url";
 
