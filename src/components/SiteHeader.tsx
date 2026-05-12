@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import cvPdf from "../assets/giselle-hoekveld-cv.pdf";
 
 export function SiteHeader() {
   return (
@@ -17,7 +18,7 @@ export function SiteHeader() {
           <a href="/#contato" className="transition-colors hover:text-foreground">
             Contato
           </a>
-          <a href="/giselle-hoekveld-cv.pdf" download className="transition-colors hover:text-foreground">
+          <a href={cvPdf} download className="transition-colors hover:text-foreground">
             CV
           </a>
         </nav>
