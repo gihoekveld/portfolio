@@ -9,7 +9,7 @@ export function SiteHeader() {
           <span className="text-gradient">@gihoekveld</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm text-muted-foreground">
-          <Link to="/" className="transition-colors hover:text-foreground" activeOptions={{ exact: true }} activeProps={{ className: "text-foreground" }}>
+          <Link to="/" className="hidden transition-colors hover:text-foreground md:block lg:block" activeOptions={{ exact: true }} activeProps={{ className: "text-foreground" }}>
             Início
           </Link>
           <a href="/#projetos" className="transition-colors hover:text-foreground">
