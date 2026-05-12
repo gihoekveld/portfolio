@@ -17,6 +17,9 @@ export function SiteHeader() {
           <a href="/#contato" className="transition-colors hover:text-foreground">
             Contato
           </a>
+          <a href="/giselle-hoekveld-cv.pdf" download className="transition-colors hover:text-foreground">
+            CV
+          </a>
         </nav>
       </div>
     </header>
